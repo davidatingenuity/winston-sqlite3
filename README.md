@@ -17,7 +17,7 @@ winston.add(winston.transports.SQLite3, {
   db: null,
   username: null,
   password: null,
-  storage: 'content/data/biphub-dev.sqlite3',
+  filename: '<path to your sqlite db file. For example: content/data/biphub-dev.sqlite3>',
 })
 
 winston.log('info', 'Hello distributed log files!')
