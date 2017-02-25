@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jason Shin <visuabasic@gmail.com>",
+  "author": "Jason Shin <visualbbasic@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bookshelf": "^0.10.3",
