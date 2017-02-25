@@ -1,5 +1,7 @@
 # Winston + SQLite3
 
+SQLite 3 transport for Winston logger module
+
 ## Installation
 ```
 npm install winston-sqlite3
