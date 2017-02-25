@@ -14,9 +14,9 @@ const winston = require('winston')
 require('winston-sqlite3')
 
 winston.add(winston.transports.SQLite3, {
-  db: null,
-  username: null,
-  password: null,
+  database: null <'winston by default'>,
+  user: null <'winston by default'>,
+  password: null <'null by default'>,
   filename: '<path to your sqlite db file. For example: content/data/biphub-dev.sqlite3>',
   tableName: '<specify name of table that you want to generate inside sqlite3>'
 })
