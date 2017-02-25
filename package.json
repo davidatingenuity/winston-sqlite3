@@ -8,6 +8,7 @@
   },
   "author": "Jason Shin <visualbbasic@gmail.com>",
   "license": "MIT",
+  "url": "https://github.com/JasonShin/winston-sqlite3",
   "dependencies": {
     "bookshelf": "^0.10.3",
     "knex": "^0.12.7",
