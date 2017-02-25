@@ -6,7 +6,7 @@ npm install winston-sqlite3
 ```
 
 ## Setup
-```
+```javascript
 const winston = require('winston')
 // Requiring `winston-sqlire3` will expose `winston.transports.SQLite3`
 require('./winston-sqlite3')
