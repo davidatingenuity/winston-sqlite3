@@ -1,13 +1,13 @@
 {
   "name": "winston-sqlite3",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jason Shin <visuabasic@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bookshelf": "^0.10.3",
     "knex": "^0.12.7",
