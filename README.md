@@ -18,6 +18,7 @@ winston.add(winston.transports.SQLite3, {
   username: null,
   password: null,
   filename: '<path to your sqlite db file. For example: content/data/biphub-dev.sqlite3>',
+  tableName: '<specify name of table that you want to generate inside sqlite3>'
 })
 
 winston.log('info', 'Hello distributed log files!')
