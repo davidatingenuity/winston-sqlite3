@@ -1,6 +1,7 @@
 # Winston + SQLite3
 
-SQLite 3 transport for Winston logger module
+Fork of JasonShin's SQLite 3 transport for Winston logger module. 
+This fork adds database locking using async-lock to provide separate contention-free access to the database
 
 ## Installation
 ```
@@ -19,6 +20,8 @@ winston.add(winston.transports.SQLite3, {
   password: '<null by default>',
   filename: '<path to your sqlite db file. For example: content/data/biphub-dev.sqlite3>',
   tableName: '<specify name of table that you want to generate inside sqlite3>'
+  dbLock: <provide an instance of async-lock to use as a database access lock>,
+  dbLockName: '<name for database lock. defaults to dblock if not provided>'
 })
 
 winston.log('info', 'Hello distributed log files!')
