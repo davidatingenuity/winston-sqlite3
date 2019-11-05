@@ -13,9 +13,9 @@
     "url": "https://github.com/JasonShin/winston-sqlite3"
   },
   "dependencies": {
-    "async-lock": "^1.2.0",
+    "async-lock": "^1.2.2",
     "bookshelf": "^0.10.3",
-    "knex": "^0.12.7",
+    "knex": "^0.20.1",
     "q": "^1.4.1",
     "winston": "^2.3.1"
   }
